@@ -33,7 +33,7 @@ function sumarArray(numeros, cb) {
   // No es necesario devolver nada
   //Tu código:
 
-  var sumaTotal = numero.reduce (function (acc, curr) {
+  var sumaTotal = numeros.reduce (function (acc, curr) {
     return acc + curr;
   },0);
   cb(sumaTotal);
@@ -45,8 +45,8 @@ function forEach(array, cb) {
   // Pista: Estarás invocando a `cb` varias veces (una por cada valor en la matriz)
   //Tu código:
 
- for (var i = 0, i < array.length; i++) {
-  cb (array[i]);
+ for (var i = 0; i < array.length; i++) {
+  cb(array[i]);
  }
 }
  
@@ -70,7 +70,7 @@ function filter(array) {
   //Tu código:
 
   var nuevoArray = [];
-  for (let i = 0 i < array.length; i++) {
+  for (let i = 0; i < array.length; i++) {
     if (array[i][0] === "a") {
       nuevoArray.push(array[i])
     }

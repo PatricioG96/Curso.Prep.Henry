@@ -1,10 +1,18 @@
-html {
-text-align: center;
-
-}
-
 h1 {
 	color: black;
+	text-align: center;
+}
+
+img {
+width: 400px;
+height: 400px;
+}
+
+#thirdDiv {
+	background-color: yellow;
+	padding: 50px;
+	border: 10px solid black;
+	text-align: center;
 }
 
 #spanId {
@@ -12,7 +20,6 @@ h1 {
 	margin: 50px;
 }
 
-#thirdDiv {
-	padding: 50px;
-	border: 3px solid black;
+html {
+	text-align: center;
 }
